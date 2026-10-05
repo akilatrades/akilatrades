@@ -31,3 +31,10 @@ A separate sports-analytics project focused on transparent projections, uncertai
 ## Areas of Interest
 
 **Commodity Markets • Physical Energy Markets • Trading Analytics • Market Risk • Futures • Quantitative Research**
+
+
+## Outside the Markets
+
+I train and compete in **Muay Thai**, and I see a lot of overlap between combat sports and trading: preparation, discipline, risk management, staying composed under pressure, and reviewing mistakes without letting emotion dictate the next decision.
+
+Both have taught me to respect the process, manage risk, and stay patient until the right opportunity presents itself.
