@@ -1,36 +1,33 @@
 # Akila Juan
 
-**Energy Markets • Commodity Trading • Risk Analytics • Python**
+**Research Analyst | Commodity Markets | Market Risk | Python**
 
-I'm an energy-focused analyst with a background in data science and a strong interest in commodity markets.
+Research Analyst working with polyolefins manufacturing benchmarking and petrochemical industry data, with a data-science background and a strong interest in commodity markets, trading, and risk analytics.
 
-Trading is my passion. I enjoy studying how markets move, how risk is managed, and how physical energy markets connect to futures.
+My portfolio work focuses on applying Python to physical commodity exposure, futures hedging, market risk, model validation, and quantitative decision analysis.
 
-I'm highly detail-oriented, technical, and comfortable in fast-paced environments. I like breaking problems down, testing assumptions, and making sure the small details are right.
+## Featured Projects
 
-## Featured Project
+### [WTI Producer Hedging & Market Risk Analytics](https://github.com/akilatrades/wti-producer-hedge-simulator)
 
-### [WTI Producer Hedge Simulator](https://github.com/akilatrades/wti-producer-hedge-simulator)
+Models an illustrative crude-oil producer's WTI price exposure and evaluates how futures hedging changes revenue volatility, tail risk, basis exposure, and hedge requirements.
 
-A Python project that shows how a crude oil producer can use WTI futures to reduce price and revenue risk.
+**Topics:** WTI futures, producer hedging, Midland-Cushing basis risk, hedge effectiveness, minimum-variance hedging, VaR / Expected Shortfall, term structure, walk-forward validation.
 
-The project covers:
+### [Energy Commodity Portfolio VaR & Market Risk Analytics](https://github.com/akilatrades/energy-commodity-var-engine)
 
-- WTI futures hedging
-- Midland vs. Cushing basis risk
-- hedge-size comparisons
-- minimum-variance hedge sizing
-- stress testing
-- physical revenue and futures P&L
+A multi-commodity futures risk framework covering P&L, multiple VaR methodologies, Expected Shortfall, component risk attribution, stress testing, out-of-sample backtesting, calibration sensitivity, and risk-limit monitoring.
 
-## Tools
+**Topics:** market risk, Historical VaR, Parametric VaR, Student-t Monte Carlo, Weighted Historical VaR, stress testing, Kupiec / Christoffersen validation, risk reporting.
 
-**Python • SQL • Excel • Power BI • R • Git**
+### [NFL Forecasting & Decision Analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis)
 
-## Interests
+A separate sports-analytics project focused on transparent projections, uncertainty, ownership estimation, lineup correlation, sensitivity analysis, and post-event model review.
 
-**Commodity Trading • Energy Markets • Futures • Market Risk • Physical Energy Markets • Quantitative Trading**
+## Technical Skills
 
-## Fun Fact
+**Python • SQL • Excel • Power BI • Tableau • R • Git**
 
-Outside of markets, I'm a **Muay Thai fighter**. I enjoy the same things in trading and fighting: preparation, discipline, attention to detail, staying composed under pressure, and making good decisions quickly.
+## Areas of Interest
+
+**Commodity Markets • Physical Energy Markets • Trading Analytics • Market Risk • Futures • Quantitative Research**
