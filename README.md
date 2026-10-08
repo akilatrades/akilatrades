@@ -1,6 +1,6 @@
 # Akila Juan
 
-I’m a research analyst working with petrochemical industry data and polyolefins manufacturing benchmarking. My projects explore how commodity prices, physical exposure and hedging decisions affect a business’s margins and risk.
+My background includes research analysis of petrochemical industry data and polyolefins manufacturing benchmarking. My projects explore how commodity prices, physical exposure and hedging decisions affect a business’s margins and risk.
 
 I use Python, SQL and Excel to make the assumptions visible and the results reproducible. Public portfolio work uses public or explicitly synthetic data; it does not include employer or client information.
 
@@ -15,3 +15,7 @@ I use Python, SQL and Excel to make the assumptions visible and the results repr
 **Currently building:** volatility-scaled risk forecasts and dated-contract reconciliation; extending the petchem model’s coproduct and basis assumptions.
 
 Outside work, I train and compete in Muay Thai.
+
+## AI use
+
+I used AI tools to assist with drafting, code review and documentation. I reviewed the analytical assumptions, methods and results and remain responsible for the claims made in these projects.
