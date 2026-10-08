@@ -1,40 +1,15 @@
 # Akila Juan
 
-**Research Analyst | Commodity Markets | Market Risk | Python**
+I’m a research analyst working with petrochemical industry data and polyolefins manufacturing benchmarking. My projects explore how commodity prices, physical exposure and hedging decisions affect a business’s margins and risk.
 
-Research Analyst working with polyolefins manufacturing benchmarking and petrochemical industry data, with a data-science background and a strong interest in commodity markets, trading, and risk analytics.
+I use Python, SQL and Excel to make the assumptions visible and the results reproducible. Public portfolio work uses public or explicitly synthetic data; it does not include employer or client information.
 
-My portfolio work focuses on applying Python to physical commodity exposure, futures hedging, market risk, model validation, and quantitative decision analysis.
+## Projects
 
-## Featured Projects
+- **[WTI producer hedge simulator](https://github.com/akilatrades/wti-producer-hedge-simulator):** How much revenue risk does a futures hedge remove, and what remains when basis or production changes? A hedge ratio close to 1 is expected for Cushing-linked exposure; residual risk is the more useful question.
+- **[Energy commodity VaR engine](https://github.com/akilatrades/energy-commodity-var-engine):** How do different risk models describe the same energy hedge book, and where do their forecasts fail?
+- **[NFL projection analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis):** A separate project on forecasting, uncertainty and reviewing predictions against outcomes.
 
-### [WTI Producer Hedging & Market Risk Analytics](https://github.com/akilatrades/wti-producer-hedge-simulator)
+**Currently building:** comparisons of producer hedge structures, a refiner hedge risk case study, and crude-storage carry economics.
 
-Models an illustrative crude-oil producer's WTI price exposure and evaluates how futures hedging changes revenue volatility, tail risk, basis exposure, and hedge requirements.
-
-**Topics:** WTI futures, producer hedging, Midland-Cushing basis risk, hedge effectiveness, minimum-variance hedging, VaR / Expected Shortfall, term structure, walk-forward validation.
-
-### [Energy Commodity Portfolio VaR & Market Risk Analytics](https://github.com/akilatrades/energy-commodity-var-engine)
-
-A multi-commodity futures risk framework covering P&L, multiple VaR methodologies, Expected Shortfall, component risk attribution, stress testing, out-of-sample backtesting, calibration sensitivity, and risk-limit monitoring.
-
-**Topics:** market risk, Historical VaR, Parametric VaR, Student-t Monte Carlo, Weighted Historical VaR, stress testing, Kupiec / Christoffersen validation, risk reporting.
-
-### [NFL Forecasting & Decision Analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis)
-
-A separate sports-analytics project focused on transparent projections, uncertainty, ownership estimation, lineup correlation, sensitivity analysis, and post-event model review.
-
-## Technical Skills
-
-**Python • SQL • Excel • Power BI • Tableau • R • Git**
-
-## Areas of Interest
-
-**Commodity Markets • Physical Energy Markets • Trading Analytics • Market Risk • Futures • Quantitative Research**
-
-
-## Outside the Markets
-
-I train and compete in **Muay Thai**, and I see a lot of overlap between combat sports and trading: preparation, discipline, risk management, staying composed under pressure, and reviewing mistakes without letting emotion dictate the next decision.
-
-Both have taught me to respect the process, manage risk, and stay patient until the right opportunity presents itself.
+Outside work, I train and compete in Muay Thai.
