@@ -2,7 +2,7 @@
 
 **Quantitative research analyst · trading, probability and pricing models · Houston, TX**
 
-I'm a research analyst with a real passion for trading and for figuring out what the numbers are actually saying: probabilities, expected value, and how often things really happen compared with what the price implies. I spent my career so far in professional research and analytics, and I trade futures on a funded account under strict risk limits. Most of my own time now goes into building and testing pricing models for sports and prediction markets.
+I'm a research analyst with a real passion for trading and for figuring out what the numbers are actually saying: probabilities, expected value, and how often things really happen compared with what the price implies. I spent my career so far in professional research and analytics, and I trade futures on a funded account under strict risk limits. Most of my own time now goes into building and testing pricing models for sports and prediction markets, and projects on physical commodity markets: how crude is priced, stored, shipped, hedged and reconciled.
 
 The way I work is the same in every project here: ask one clear question, build the simplest model that can answer it, test it only on data it has never seen, and report the result honestly, even when the answer is "there's no edge."
 
@@ -50,7 +50,7 @@ Python (pandas, NumPy, SciPy, scikit-learn), SQL (SQLite, PostgreSQL, MySQL), Ex
 
 ## What I'm looking for
 
-Junior quant trading, trading analyst and quantitative research roles, especially in sports, prediction markets and commodities. I'm based in Houston and open to relocating. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/akila-juan-a9622a203/).
+Junior quant trading, trading analyst and quantitative research roles, especially in sports and prediction markets. I'm also interested in physical commodity trading roles, and I build projects for that side of the market too: the physical crude book, export arb, storage carry and petchem work above. I'm based in Houston. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/akila-juan-a9622a203/).
 
 Public portfolio work uses public or clearly synthetic data; it doesn't include any employer or client information. Outside work, I train and compete in Muay Thai.
 
