@@ -19,9 +19,10 @@ I use Python, SQL and Excel to make the assumptions visible and the results repr
 - **[Refining margin](https://github.com/akilatrades/energy-commodity-var-engine/tree/main/projects/refining-margin):** Does the 3-2-1 crack spread mean-revert day to day? A pre-specified rule finds no usable edge; month-start contract rolls and a one-day look-ahead error would each have suggested otherwise.
 - **[Petchem feedstock and PE margins](https://github.com/akilatrades/commodity-decision-intelligence/tree/main/projects/petchem-feedstock):** Public historical ethane, propane and LDPE benchmarks, an explicit mass balance, and what a feedstock hedge leaves exposed.
 
-### Other
+### Sports pricing and forecasting
 
-- **[NFL projection analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis):** A separate project on forecasting, uncertainty and reviewing predictions against outcomes.
+- **[NFL same-game parlay pricing](https://github.com/akilatrades/nfl-sgp-correlation):** How far off is a same-game parlay priced as if its legs were independent? Across 2012–2025, a QB's yards over and his WR1's yards over hit together 1.33x as often as independence implies; a correlation adjustment fit on 2012–2020 still priced 2021–2025 better.
+- **[NFL projection analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis):** Forecasting, uncertainty and reviewing predictions against outcomes.
 
 **Currently building:** volatility-scaled risk forecasts and dated-contract reconciliation; extending the petchem model’s coproduct and basis assumptions.
 
