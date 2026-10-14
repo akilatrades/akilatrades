@@ -21,6 +21,7 @@ I use Python, SQL and Excel to make the assumptions visible and the results repr
 
 ### Sports pricing and forecasting
 
+- **[NFL parlay model](https://github.com/akilatrades/nfl-parlay-model):** A same-game parlay pricing model built in phases. Phase 1 prices every QB, RB, WR and TE leg; across 125,803 walk-forward predictions (2019–2026) its probabilities were calibrated within about one point, and it beat a recent-average baseline on every stat. It reads the injury report and logs Kalshi prices daily to test itself against the market.
 - **[NFL same-game parlay pricing](https://github.com/akilatrades/nfl-sgp-correlation):** How far off is a same-game parlay priced as if its legs were independent? Across 2012–2025, a QB's yards over and his WR1's yards over hit together 1.33x as often as independence implies; a correlation adjustment fit on 2012–2020 still priced 2021–2025 better.
 - **[NFL projection analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis):** Forecasting, uncertainty and reviewing predictions against outcomes.
 
