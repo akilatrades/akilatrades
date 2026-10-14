@@ -1,33 +1,58 @@
 # Akila Juan
 
-My background includes research analysis of petrochemical industry data and polyolefins manufacturing benchmarking. My projects explore how commodity prices, physical exposure and hedging decisions affect a business’s margins and risk.
+**Quantitative research analyst · trading, probability and pricing models · Houston, TX**
 
-I use Python, SQL and Excel to make the assumptions visible and the results reproducible. Public portfolio work uses public or explicitly synthetic data; it does not include employer or client information.
+I'm a research analyst with a real passion for trading and for figuring out what the numbers are actually saying: probabilities, expected value, and how often things really happen compared with what the price implies. I spent my career so far in professional research and analytics, and I trade futures on a funded account under strict risk limits. Most of my own time now goes into building and testing pricing models for sports and prediction markets.
+
+The way I work is the same in every project here: ask one clear question, build the simplest model that can answer it, test it only on data it has never seen, and report the result honestly, even when the answer is "there's no edge."
+
+## What I'm working on now
+
+**[NFL parlay model](https://github.com/akilatrades/nfl-parlay-model):** a model that prices NFL player props from usage, efficiency, betting lines, opponent defense and the injury report. I tested it week by week from 2019 to 2026 using only past games: across 125,803 predictions its probabilities were calibrated within about one percentage point, and it beat a recent-average baseline on every stat. It now refreshes itself daily and logs Kalshi prices, so this season I can measure it against a real market instead of just against history.
 
 ## Projects
 
-### Physical markets
+### Sports pricing and probability
 
-- **[Physical crude book](https://github.com/akilatrades/commodity-decision-intelligence/tree/main/projects/physical-crude-book):** A desk's month-end work in SQL on a synthetic Permian-to-Houston book: CMA deal pricing, ticket-based delivery checks, invoice reconciliation, flat-price positions after swaps, and book P&L.
-- **[Crude export arb](https://github.com/akilatrades/wti-producer-hedge-simulator/tree/main/projects/crude-export-arb):** When does Brent pay for piping Cushing crude to the Gulf Coast and shipping it to Europe? Open in 44 of 129 months under base costs, yet exports kept flowing; treating committed pipeline tariffs as sunk explains part of the gap.
-- **[Crude-storage carry](https://github.com/akilatrades/wti-producer-hedge-simulator/tree/main/projects/crude-storage-carry):** When does contango pay for storage? In the historical monthly sample, 59 months had contango but only 12 covered the assumed carrying costs. The study is also written in SQL, with tests that check it against the Python model.
+| Project | The question | What I found |
+|---|---|---|
+| [NFL parlay model](https://github.com/akilatrades/nfl-parlay-model) | Can a transparent model price player props well? | Calibrated within ~1 point over 125,803 walk-forward predictions; biggest gains on QB yards and touchdowns |
+| [Same-game parlay pricing](https://github.com/akilatrades/nfl-sgp-correlation) | How wrong is a parlay priced as if its legs were independent? | A QB's yards over and his top receiver's yards over hit together 1.33x as often as independence implies (fair +265, not +385); the correction held on seasons it hadn't seen |
+| [NFL projection analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis) | How do my weekly projections hold up against real results? | Monte Carlo lineup simulations, with pre-game inputs saved and reviewed against the results |
 
-### Hedging, margins and risk
+### Trading, risk and statistics
 
-- **[WTI producer hedge simulator](https://github.com/akilatrades/wti-producer-hedge-simulator):** How much revenue risk does a futures hedge remove, and what remains when basis or production changes? A hedge ratio close to 1 is expected for Cushing-linked exposure; residual risk is the more useful question.
-- **[Energy commodity VaR engine](https://github.com/akilatrades/energy-commodity-var-engine):** How do different risk models describe the same refiner hedge book, and where do their forecasts fail?
-- **[Refining margin](https://github.com/akilatrades/energy-commodity-var-engine/tree/main/projects/refining-margin):** Does the 3-2-1 crack spread mean-revert day to day? A pre-specified rule finds no usable edge; month-start contract rolls and a one-day look-ahead error would each have suggested otherwise.
-- **[Petchem feedstock and PE margins](https://github.com/akilatrades/commodity-decision-intelligence/tree/main/projects/petchem-feedstock):** Public historical ethane, propane and LDPE benchmarks, an explicit mass balance, and what a feedstock hedge leaves exposed.
+| Project | The question | What I found |
+|---|---|---|
+| [Risk forecast backtest](https://github.com/akilatrades/energy-commodity-var-engine) | Do daily 99% risk forecasts for a refiner's hedge book hold up? | Volatility scaling cut misses from 2.16% to 1.43% over 1,894 forecasts and passed the coverage test, but failed the independence test; I report both |
+| [Refining margin signal test](https://github.com/akilatrades/energy-commodity-var-engine/tree/main/projects/refining-margin) | Does the 3-2-1 crack spread mean-revert day to day? | No usable edge (51.7% hit rate, p = 0.68); contract rolls and a one-day look-ahead error would each have faked one |
+| [WTI producer hedge simulator](https://github.com/akilatrades/wti-producer-hedge-simulator) | How much revenue risk does a hedge remove, and what's left? | A full futures hedge cut revenue-surprise variance by about 96%; compares swaps and collars priced with Black-76 |
 
-### Sports pricing and forecasting
+### Physical commodity markets
 
-- **[NFL parlay model](https://github.com/akilatrades/nfl-parlay-model):** A same-game parlay pricing model built in phases. Phase 1 prices every QB, RB, WR and TE leg; across 125,803 walk-forward predictions (2019–2026) its probabilities were calibrated within about one point, and it beat a recent-average baseline on every stat. It reads the injury report and logs Kalshi prices daily to test itself against the market.
-- **[NFL same-game parlay pricing](https://github.com/akilatrades/nfl-sgp-correlation):** How far off is a same-game parlay priced as if its legs were independent? Across 2012–2025, a QB's yards over and his WR1's yards over hit together 1.33x as often as independence implies; a correlation adjustment fit on 2012–2020 still priced 2021–2025 better.
-- **[NFL projection analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis):** Forecasting, uncertainty and reviewing predictions against outcomes.
+| Project | The question | What I found |
+|---|---|---|
+| [Physical crude book](https://github.com/akilatrades/commodity-decision-intelligence/tree/main/projects/physical-crude-book) | Can SQL handle a desk's month-end on a synthetic crude book? | Deal pricing, delivery checks, invoice reconciliation, positions and P&L; caught every planted error |
+| [Crude export arb](https://github.com/akilatrades/wti-producer-hedge-simulator/tree/main/projects/crude-export-arb) | When does Brent pay for shipping Cushing crude to Europe? | Open in 44 of 129 months under base costs |
+| [Crude storage carry](https://github.com/akilatrades/wti-producer-hedge-simulator/tree/main/projects/crude-storage-carry) | When does contango pay for storage? | Only 12 of 59 contango months covered the assumed carrying costs; also built in SQL |
+| [Petchem feedstock and PE margins](https://github.com/akilatrades/commodity-decision-intelligence/tree/main/projects/petchem-feedstock) | What does a feedstock hedge actually protect? | It can work exactly as designed while the polyethylene margin still falls |
 
-**Currently building:** volatility-scaled risk forecasts and dated-contract reconciliation; extending the petchem model’s coproduct and basis assumptions.
+## Professional experience
 
-Outside work, I train and compete in Muay Thai.
+- **Research Analyst, Phillip Townsend Associates (2025–2026).** Benchmarked the operating and cost performance of polyolefins plants against industry peer groups. Validated and reconciled large client datasets and presented findings to client teams.
+- **Proprietary futures trader (2024–present).** Trade crude oil and gold futures on a funded account under hard daily loss and drawdown limits. I've also traded event contracts on Kalshi.
+- **Data scientist, freelance and academic (2021–2024).** Regression and classification models, SQL data pipelines and Power BI and Tableau dashboards.
+- **B.S. Computer Information Systems, Data Science,** University of Houston–Victoria.
+
+## Tools
+
+Python (pandas, NumPy, SciPy, scikit-learn), SQL (SQLite, PostgreSQL, MySQL), Excel, Power BI, Tableau, Git, pytest and GitHub Actions. Methods I use most: walk-forward testing, calibration (Brier score, log loss), Monte Carlo simulation, bootstrap intervals and regression.
+
+## What I'm looking for
+
+Junior quant trading, trading analyst and quantitative research roles, especially in sports, prediction markets and commodities. I'm based in Houston and open to relocating. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/akila-juan-a9622a203/).
+
+Public portfolio work uses public or clearly synthetic data; it doesn't include any employer or client information. Outside work, I train and compete in Muay Thai.
 
 ## AI use
 
