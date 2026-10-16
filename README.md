@@ -8,9 +8,7 @@ The way I work is the same in every project here: ask one clear question, build 
 
 ## What I'm working on now
 
-**[NBA prop model](https://github.com/akilatrades/nba-prop-model):** prices NBA player props (points, rebounds, assists, threes) and tests them against a full season of real Kalshi prices, with the betting rule committed before any price was downloaded. The model knew something the market's price didn't (t = 13.8 alongside the price), but the pre-registered rule lost 0.9 cents per contract over 12,495 trades once the spread and fee were paid, so I report it as a failure. A cost-aware rule found afterwards is being paper traded through the 2026-27 season, with its pass criteria committed before opening night.
-
-**[NFL parlay model](https://github.com/akilatrades/nfl-parlay-model):** a model that prices NFL player props from usage, efficiency, betting lines, opponent defense and the injury report. I tested it week by week from 2019 to 2026 using only past games: across 125,803 predictions its probabilities were calibrated within about one percentage point, and it beat a recent-average baseline on every stat. It now refreshes itself daily and logs Kalshi prices, so this season I can measure it against a real market instead of just against history.
+**[Sports market maker](https://github.com/akilatrades/sports-market-maker):** a market-making strategy for Kalshi's sports markets, built from my NBA and NFL player-prop models and a year of tests whose rules were written down before the data was downloaded. The models know things the price doesn't (NBA: t = 13.8 alongside the price), but buying their picks at the ask lost 0.9¢ a contract after the spread and fee, and so did weather and parlays. What paid was the other side of the book: resting "no" orders against retail "yes" buyers made 1.65¢ a contract with no model, and 2.9¢ (t = 6.1) with the model used only to skip orders it rates as losers, consistent across both halves of the season and every price level. A scan of 274 Kalshi series found the same pattern in NFL props and a few other markets, and its opposite in game-winner markets. Seven paper ledgers run live through 2026-27 with their pass criteria fixed in advance.
 
 ## Projects
 
@@ -18,8 +16,9 @@ The way I work is the same in every project here: ask one clear question, build 
 
 | Project | The question | What I found |
 |---|---|---|
-| [NBA prop model](https://github.com/akilatrades/nba-prop-model) | Can a model beat Kalshi's NBA prop prices after fees? | Adds information the price lacks (t = 13.8), but the pre-registered rule lost 0.9¢ per contract over 12,495 trades; a cost-aware follow-up is in a live paper test |
-| [NFL parlay model](https://github.com/akilatrades/nfl-parlay-model) | Can a transparent model price player props well? | Calibrated within ~1 point over 125,803 walk-forward predictions; biggest gains on QB yards and touchdowns |
+| [Sports market maker](https://github.com/akilatrades/sports-market-maker) | Where is the edge in Kalshi's sports markets, and for whom? | Not in forecasting: model picks lost 0.9¢/contract at the ask. In liquidity provision: resting "no" orders made 2.9¢/contract (t = 6.1) with the model as a filter; scan of 274 series; seven live paper ledgers |
+| [NBA prop model](https://github.com/akilatrades/sports-market-maker/blob/main/docs/nba-model.md) | Can a model price NBA player props well? | Calibrated within half a point on a holdout season; now `markets/nba` of the project above |
+| [NFL prop model](https://github.com/akilatrades/sports-market-maker/blob/main/docs/nfl-model.md) | Can a transparent model price NFL player props well? | Calibrated within ~1 point over 125,803 walk-forward predictions; now `markets/nfl` of the project above |
 | [Same-game parlay pricing](https://github.com/akilatrades/nfl-sgp-correlation) | How wrong is a parlay priced as if its legs were independent? | A QB's yards over and his top receiver's yards over hit together 1.33x as often as independence implies (fair +265, not +385); the correction held on seasons it hadn't seen |
 | [NFL projection analysis](https://github.com/akilatrades/nfl-dfs-projection-analysis) | How do my weekly projections hold up against real results? | Monte Carlo lineup simulations, with pre-game inputs saved and reviewed against the results |
 
